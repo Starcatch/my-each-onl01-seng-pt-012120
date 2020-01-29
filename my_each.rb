@@ -2,7 +2,7 @@ def my_each(array)
   count = 0
   while count < array.lenght 
   yield array[count]
-  countm ++
+  count ++
 end
 return array
 end
