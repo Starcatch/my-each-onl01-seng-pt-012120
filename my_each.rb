@@ -3,5 +3,6 @@ def my_each(array)
   while count < array.lenght 
   yield array[count]
   countm ++
-end return array
+end
+return array
 end
